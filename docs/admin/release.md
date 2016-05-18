@@ -79,7 +79,7 @@ If changes detected;
 
 ```
 git add -A
-git commit -m "Update packages"
+git commit -m "Update dependencies"
 ```
 
 
