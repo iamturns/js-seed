@@ -59,7 +59,7 @@ Update the version number in `/package.json`.
 
 ```
 git add -A
-git commit -m "Bump version"
+git commit -m ":tada: {{version}}"
 ```
 
 
@@ -104,8 +104,6 @@ git push
 git checkout develop
 git push
 ```
-
-Message for new version: `:tada: {{version}}`
 
 Message for version tag: `:bookmark: {{version}}`
 

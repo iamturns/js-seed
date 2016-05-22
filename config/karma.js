@@ -1,4 +1,4 @@
-var nodeConfig = require('./node');
+var nodeConfig = require('node-config');
 
 var karmaConfig = {
   logLevel: nodeConfig.logLevel,
@@ -22,6 +22,8 @@ var karmaConfig = {
   reporters: [],
 };
 
+adjustWebpack();
+
 if (nodeConfig.ci) {
   addProgressReporter();
 } else {
@@ -33,6 +35,22 @@ if (!nodeConfig.fast) {
   addHtmlReporter();
   addJsonReporter();
   addJsonResultReporter();
+}
+
+//   ###### #    # #    #  ####  ##### #  ####  #    #  ####
+//   #      #    # ##   # #    #   #   # #    # ##   # #
+//   #####  #    # # #  # #        #   # #    # # #  #  ####
+//   #      #    # #  # # #        #   # #    # #  # #      #
+//   #      #    # #   ## #    #   #   # #    # #   ## #    #
+//   #       ####  #    #  ####    #   #  ####  #    #  ####
+
+function adjustWebpack() {
+  // entry is replaced by karmaConfig.files
+  karmaConfig.webpack.entry = {};
+  // output is not required
+  karmaConfig.webpack.output = {};
+  // plugins are not required
+  karmaConfig.webpack.plugins = {};
 }
 
 function addProgressReporter() {
@@ -97,6 +115,13 @@ function addJsonResultReporter() {
     outputFile: '../reports/unit-test/json/detail.json'
   };
 }
+
+//   ###### #    # #####   ####  #####  #####
+//   #       #  #  #    # #    # #    #   #
+//   #####    ##   #    # #    # #    #   #
+//   #        ##   #####  #    # #####    #
+//   #       #  #  #      #    # #   #    #
+//   ###### #    # #       ####  #    #   #
 
 module.exports = function(karma) {
   karma.set(karmaConfig);
