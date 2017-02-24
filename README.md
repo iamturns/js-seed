@@ -1,12 +1,5 @@
-ES2015 Webpack Karma Jasmine Boilerplate
-========================================
-
-Boilerplate for creating javascript libraries in ES2015 with tests.
-
-
-
-Features
-========
+JS Seed
+=======
 
 - [Babel](https://babeljs.io/) - ES6
 - [webpack](https://webpack.github.io/) - Bundling
