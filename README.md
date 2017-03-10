@@ -1,14 +1,11 @@
 JS Seed
 =======
-<<<<<<< HEAD
-=======
 
 Boilerplate for creating javascript libraries in ES6 with tests.
 
 
 Features
 ========
->>>>>>> release/v1.0.1
 
 - Source files written in [ES6](http://www.ecma-international.org/ecma-262/6.0/) and transpiled with [Babel](https://babeljs.io/).
 - Build file bundled with [webpack](https://webpack.github.io/).
