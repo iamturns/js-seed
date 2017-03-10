@@ -1,5 +1,5 @@
 # OS
-#
+
 .DS_Store
 .DS_Store?
 ._*
@@ -9,17 +9,17 @@ ehthumbs.db
 Thumbs.db
 
 # IDE
-#
+
 *.iml
 .idea
 
 # Misc files
-#
+
 *.log
 .sass-cache
 npm-debug.log*
 
 # Project
-#
+
 /node_modules/
 /reports/
