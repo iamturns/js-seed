@@ -1,13 +1,25 @@
 JS Seed
 =======
+<<<<<<< HEAD
+=======
 
-- [Babel](https://babeljs.io/) - ES6
-- [webpack](https://webpack.github.io/) - Bundling
-- [karma](https://karma-runner.github.io/) - Running tests
-- [jasmine](http://jasmine.github.io/) - Writing tests
-- [isparta](https://github.com/douglasduteil/isparta) & [istanbul](https://github.com/gotwarlost/istanbul) - Test coverage
-- [node-config](https://github.com/lorenwest/node-config) - Configuration
-- [husky](https://github.com/typicode/husky) - Git hooks
+Boilerplate for creating javascript libraries in ES6 with tests.
+
+
+Features
+========
+>>>>>>> release/v1.0.1
+
+- Source files written in [ES6](http://www.ecma-international.org/ecma-262/6.0/) and transpiled with [Babel](https://babeljs.io/).
+- Build file bundled with [webpack](https://webpack.github.io/).
+- Exported in UMD format for use in all environments (including AMD / [RequireJS](http://requirejs.org/) and CommonJS / [NodeJS](https://nodejs.org/) / [npm](https://www.npmjs.com/)).
+- Unit tests written with [jasmine](http://jasmine.github.io/) and run with [karma](https://karma-runner.github.io/).
+- Unit test coverage with [isparta](https://github.com/douglasduteil/isparta) & [istanbul](https://github.com/gotwarlost/istanbul).
+- Configuration managed by [node-config](https://github.com/lorenwest/node-config) and environment variables (development, production, test).
+- Reports generated for unit test and coverage in HTML, txt, and json files.
+- [Environment variables](./docs/development/environment-variables.md) to enable debugging and continuous integration support.
+- Git hooks with [husky](https://github.com/typicode/husky) ensure tests and builds pass.
+- Change log adhering to [Semantic Versioning](http://semver.org/) and [Keep a CHANGELOG](http://keepachangelog.com/).   
 
 
 
