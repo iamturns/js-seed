@@ -6,6 +6,11 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 This file adheres to [Keep a CHANGELOG](http://keepachangelog.com/).
 
 
+1.0.3 - 2018-02-15
+==================
+
+- Update contact name and email
+
 1.0.2 - 2017-03-10
 ==================
 

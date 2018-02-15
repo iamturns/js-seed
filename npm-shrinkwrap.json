@@ -1,6 +1,6 @@
 {
-  "name": "es2015-webpack-karma-jasmine-boilerplate",
-  "version": "1.0.0",
+  "name": "js-seed",
+  "version": "1.0.3",
   "dependencies": {
     "abbrev": {
       "version": "1.0.7",
