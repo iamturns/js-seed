@@ -1,7 +1,7 @@
 {
   "name": "js-seed",
   "private": true,
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Seed your JS with ES6, webpack, babel, karma, jasmine, istanbul, config, git hooks",
   "main": "index.js",
   "scripts": {
