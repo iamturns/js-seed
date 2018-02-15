@@ -134,11 +134,11 @@ Roadmap
 Author
 ======
 
-[Matthew Turnbull](http://turnbullm.com) <[turnbullm@gmail.com](mailto:turnbullm@gmail.com)>
+[Matt Turnbull](https://iamturns.com/) <[matt@iamturns.com](mailto:matt@iamturns.com)>
 
 
 
 License
 =======
 
-Open sourced under the [MIT license](http://turnbullm.mit-license.org/).
+Open sourced under the MIT license.

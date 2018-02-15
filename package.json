@@ -24,7 +24,7 @@
     ":webpack:build": "./node_modules/.bin/webpack --config config/webpack.js --progress",
     ":webpack:build:watch": "npm run :webpack:build -- --watch"
   },
-  "author": "Matthew Turnbull <turnbullm@gmail.com> (http://turnbullm.com)",
+  "author": "Matt Turnbull <matt@iamturns.com> (https://iamturns.com)",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.7.6",
