@@ -18,6 +18,7 @@ Thumbs.db
 *.log
 .sass-cache
 npm-debug.log*
+yarn-error.log
 
 # Project
 
